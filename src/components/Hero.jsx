@@ -15,9 +15,10 @@ const Hero = () => {
         </button>
       </nav>
 
-      <h1>
+      <h1 className="head_text">
         Summarize Articles with
-        <br /> OpenAI GPT-4
+        <br className="max-md:hidden" />
+        <span className="orange_gradient">OpenAI GPT-4</span>
       </h1>
     </header>
   );
